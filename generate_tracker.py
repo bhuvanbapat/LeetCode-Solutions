@@ -75,23 +75,6 @@ with open(log_path, "w", encoding="utf-8") as f:
         diff_icon = "🟢" if "Easy" in p['difficulty'] else "🟡" if "Med" in p['difficulty'] else "🔴" if "Hard" in p['difficulty'] else ""
         f.write(f"| {p['id']} | **{p['name']}** | {diff_icon} {p['difficulty']} | {p['pattern']} | *Add notes here* |\n")
 
-# Create AI_Update_Prompt.md
-prompt_path = os.path.join(tracker_dir, "AI_Update_Prompt.md")
-with open(prompt_path, "w", encoding="utf-8") as f:
-    f.write("# 🤖 AI Update Prompt\n\n")
-    f.write("Copy and paste the following template into the chat whenever you finish new problems. This ensures I update everything accurately and without hallucinating.\n\n")
-    f.write("---\n\n")
-    f.write("### Template to Copy:\n\n")
-    f.write("```markdown\n")
-    f.write("Hey Antigravity, I just completed some new DSA problems! Please update my Excel sheet and my Markdown tracking system (`DSA_Tracker/Dashboard.md` and `DSA_Tracker/Daily_Log.md`). \n\n")
-    f.write("Here are the new problems I solved:\n")
-    f.write("- [Problem Number 1]\n")
-    f.write("- [Problem Number 2]\n\n")
-    f.write("**Instructions for you:**\n")
-    f.write("1. Mark these problem numbers as '☑' in `C:/Users/bhuva/OneDrive/Desktop/DSA/DSA.xlsx`.\n")
-    f.write("2. Read the updated Excel file using Python to recalculate my stats.\n")
-    f.write("3. Update `DSA_Tracker/Dashboard.md` with the new stats (Total, Difficulty, Patterns).\n")
-    f.write("4. Append these newly solved problems to `DSA_Tracker/Daily_Log.md` under a new header `## Date: [Today's Date]`, including the Problem ID, Name, Difficulty, and Pattern.\n")
-    f.write("```\n")
+
 
 print("Tracking system generated successfully.")
