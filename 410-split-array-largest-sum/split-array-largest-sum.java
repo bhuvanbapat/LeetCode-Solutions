@@ -3,7 +3,9 @@ class Solution {
         int left = 0;
         int right = 0;
         for (int num : nums) {
-            left = Math.max(left, num);
+            if (num > left) {
+                left = num;
+            }
             right += num;
         }
         while (left < right) {
