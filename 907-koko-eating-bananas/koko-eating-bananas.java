@@ -9,10 +9,7 @@ class Solution {
             int hours = 0;
             int k = left + (right - left) / 2;
             for (int num : piles) {
-                int q = num / k;
-                if (num % k != 0) {
-                    q++;
-                }
+                int q = (num + k - 1) / k;
                 hours += q;
             }
             if (hours <= h) {
