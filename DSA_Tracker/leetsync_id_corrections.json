@@ -1,0 +1,23 @@
+{
+    "_description": "LeetSync sometimes syncs with wrong problem numbers in folder names. This file maps wrong folder-prefix IDs to the correct LeetCode problem IDs. Used by dsa_system.py during sync.",
+    "corrections": {
+        "1056": {
+            "correct_id": "1011",
+            "title": "Capacity To Ship Packages Within D Days",
+            "folder": "1011-capacity-to-ship-packages-within-d-days",
+            "fixed_date": "2026-08-12"
+        },
+        "745": {
+            "correct_id": "744",
+            "title": "Find Smallest Letter Greater Than Target",
+            "folder": "744-find-smallest-letter-greater-than-target",
+            "fixed_date": "2026-08-12"
+        },
+        "907": {
+            "correct_id": "875",
+            "title": "Koko Eating Bananas",
+            "folder": "875-koko-eating-bananas",
+            "fixed_date": "2026-08-12"
+        }
+    }
+}

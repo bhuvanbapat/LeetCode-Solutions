@@ -1,0 +1,526 @@
+{
+    "problems": {
+        "1": {
+            "name": "Two Sum",
+            "difficulty": "Easy",
+            "pattern": "Hash Map",
+            "ease": 2.5,
+            "interval": 0,
+            "next_review": "2026-08-11",
+            "history": [],
+            "state": "New"
+        },
+        "3": {
+            "name": "Longest Substring Without Repeating Characters",
+            "difficulty": "Medium",
+            "pattern": "Sliding Window",
+            "ease": 2.5,
+            "interval": 0,
+            "next_review": "2026-08-11",
+            "history": [],
+            "state": "New"
+        },
+        "42": {
+            "name": "Trapping Rain Water",
+            "difficulty": "Hard",
+            "pattern": "Two Pointers",
+            "ease": 2.5,
+            "interval": 0,
+            "next_review": "2026-08-11",
+            "history": [],
+            "state": "New"
+        },
+        "15": {
+            "name": "3Sum",
+            "difficulty": "Medium",
+            "pattern": "Two Pointers",
+            "ease": 2.5,
+            "interval": 0,
+            "next_review": "2026-08-11",
+            "history": [],
+            "state": "New"
+        },
+        "11": {
+            "name": "Container With Most Water",
+            "difficulty": "Medium",
+            "pattern": "Two Pointers",
+            "ease": 2.5,
+            "interval": 0,
+            "next_review": "2026-08-11",
+            "history": [],
+            "state": "New"
+        },
+        "33": {
+            "name": "Search in Rotated Sorted Array",
+            "difficulty": "Medium",
+            "pattern": "Binary Search",
+            "ease": 2.5,
+            "interval": 0,
+            "next_review": "2026-08-11",
+            "history": [],
+            "state": "New"
+        },
+        "560": {
+            "name": "Subarray Sum Equals K",
+            "difficulty": "Medium",
+            "pattern": "Prefix Sum",
+            "ease": 2.5,
+            "interval": 0,
+            "next_review": "2026-08-11",
+            "history": [],
+            "state": "New"
+        },
+        "34": {
+            "name": "Find First and Last Position of Element in Sorted Array",
+            "difficulty": "Medium",
+            "pattern": "Binary Search",
+            "ease": 2.5,
+            "interval": 0,
+            "next_review": "2026-08-11",
+            "history": [],
+            "state": "New"
+        },
+        "128": {
+            "name": "Longest Consecutive Sequence",
+            "difficulty": "Medium",
+            "pattern": "Union Find (DSU)",
+            "ease": 2.5,
+            "interval": 0,
+            "next_review": "2026-08-11",
+            "history": [],
+            "state": "New"
+        },
+        "49": {
+            "name": "Group Anagrams",
+            "difficulty": "Medium",
+            "pattern": "Hash Map",
+            "ease": 2.5,
+            "interval": 0,
+            "next_review": "2026-08-11",
+            "history": [],
+            "state": "New"
+        },
+        "347": {
+            "name": "Top K Frequent Elements",
+            "difficulty": "Medium",
+            "pattern": "Heap",
+            "ease": 2.5,
+            "interval": 0,
+            "next_review": "2026-08-11",
+            "history": [],
+            "state": "New"
+        },
+        "215": {
+            "name": "Kth Largest Element in an Array",
+            "difficulty": "Medium",
+            "pattern": "Heap",
+            "ease": 2.5,
+            "interval": 0,
+            "next_review": "2026-08-11",
+            "history": [],
+            "state": "New"
+        },
+        "35": {
+            "name": "Search Insert Position",
+            "difficulty": "Easy",
+            "pattern": "Binary Search",
+            "ease": 2.5,
+            "interval": 0,
+            "next_review": "2026-08-11",
+            "history": [],
+            "state": "New"
+        },
+        "153": {
+            "name": "Find Minimum in Rotated Sorted Array",
+            "difficulty": "Medium",
+            "pattern": "Binary Search",
+            "ease": 2.5,
+            "interval": 0,
+            "next_review": "2026-08-11",
+            "history": [],
+            "state": "New"
+        },
+        "209": {
+            "name": "Minimum Size Subarray Sum",
+            "difficulty": "Medium",
+            "pattern": "Sliding Window",
+            "ease": 2.5,
+            "interval": 0,
+            "next_review": "2026-08-11",
+            "history": [],
+            "state": "New"
+        },
+        "242": {
+            "name": "Valid Anagram",
+            "difficulty": "Easy",
+            "pattern": "Hash Map",
+            "ease": 2.5,
+            "interval": 0,
+            "next_review": "2026-08-11",
+            "history": [],
+            "state": "New"
+        },
+        "217": {
+            "name": "Contains Duplicate",
+            "difficulty": "Easy",
+            "pattern": "Hash Map",
+            "ease": 2.5,
+            "interval": 0,
+            "next_review": "2026-08-11",
+            "history": [],
+            "state": "New"
+        },
+        "704": {
+            "name": "Binary Search",
+            "difficulty": "Easy",
+            "pattern": "Binary Search",
+            "ease": 2.5,
+            "interval": 0,
+            "next_review": "2026-08-11",
+            "history": [],
+            "state": "New"
+        },
+        "18": {
+            "name": "4Sum",
+            "difficulty": "Medium",
+            "pattern": "Two Pointers",
+            "ease": 2.5,
+            "interval": 0,
+            "next_review": "2026-08-11",
+            "history": [],
+            "state": "New"
+        },
+        "424": {
+            "name": "Longest Repeating Character Replacement",
+            "difficulty": "Medium",
+            "pattern": "Sliding Window",
+            "ease": 2.5,
+            "interval": 0,
+            "next_review": "2026-08-11",
+            "history": [],
+            "state": "New"
+        },
+        "16": {
+            "name": "3Sum Closest",
+            "difficulty": "Medium",
+            "pattern": "Two Pointers",
+            "ease": 2.5,
+            "interval": 0,
+            "next_review": "2026-08-11",
+            "history": [],
+            "state": "New"
+        },
+        "1004": {
+            "name": "Max Consecutive Ones III",
+            "difficulty": "Medium",
+            "pattern": "Sliding Window",
+            "ease": 2.5,
+            "interval": 0,
+            "next_review": "2026-08-11",
+            "history": [],
+            "state": "New"
+        },
+        "69": {
+            "name": "Sqrt(x)",
+            "difficulty": "Easy",
+            "pattern": "Binary Search",
+            "ease": 2.5,
+            "interval": 0,
+            "next_review": "2026-08-11",
+            "history": [],
+            "state": "New"
+        },
+        "724": {
+            "name": "Find Pivot Index",
+            "difficulty": "Easy",
+            "pattern": "Prefix Sum",
+            "ease": 2.5,
+            "interval": 0,
+            "next_review": "2026-08-11",
+            "history": [],
+            "state": "New"
+        },
+        "973": {
+            "name": "K Closest Points to Origin",
+            "difficulty": "Medium",
+            "pattern": "Heap",
+            "ease": 2.5,
+            "interval": 0,
+            "next_review": "2026-08-11",
+            "history": [],
+            "state": "New"
+        },
+        "278": {
+            "name": "First Bad Version",
+            "difficulty": "Easy",
+            "pattern": "Binary Search",
+            "ease": 2.5,
+            "interval": 0,
+            "next_review": "2026-08-11",
+            "history": [],
+            "state": "New"
+        },
+        "525": {
+            "name": "Contiguous Array",
+            "difficulty": "Medium",
+            "pattern": "Prefix Sum",
+            "ease": 2.5,
+            "interval": 0,
+            "next_review": "2026-08-11",
+            "history": [],
+            "state": "New"
+        },
+        "1480": {
+            "name": "Running Sum of 1d Array",
+            "difficulty": "Easy",
+            "pattern": "Prefix Sum",
+            "ease": 2.5,
+            "interval": 0,
+            "next_review": "2026-08-11",
+            "history": [],
+            "state": "New"
+        },
+        "692": {
+            "name": "Top K Frequent Words",
+            "difficulty": "Medium",
+            "pattern": "Trie",
+            "ease": 2.5,
+            "interval": 0,
+            "next_review": "2026-08-11",
+            "history": [],
+            "state": "New"
+        },
+        "974": {
+            "name": "Subarray Sums Divisible by K",
+            "difficulty": "Medium",
+            "pattern": "Prefix Sum",
+            "ease": 2.5,
+            "interval": 0,
+            "next_review": "2026-08-11",
+            "history": [],
+            "state": "New"
+        },
+        "523": {
+            "name": "Continuous Subarray Sum",
+            "difficulty": "Medium",
+            "pattern": "Prefix Sum",
+            "ease": 2.5,
+            "interval": 0,
+            "next_review": "2026-08-11",
+            "history": [],
+            "state": "New"
+        },
+        "992": {
+            "name": "Subarrays with K Different Integers",
+            "difficulty": "Hard",
+            "pattern": "Sliding Window",
+            "ease": 2.5,
+            "interval": 0,
+            "next_review": "2026-08-11",
+            "history": [],
+            "state": "New"
+        },
+        "485": {
+            "name": "Max Consecutive Ones",
+            "difficulty": "Easy",
+            "pattern": "General",
+            "ease": 2.5,
+            "interval": 0,
+            "next_review": "2026-08-11",
+            "history": [],
+            "state": "New"
+        },
+        "904": {
+            "name": "Fruit Into Baskets",
+            "difficulty": "Medium",
+            "pattern": "Sliding Window",
+            "ease": 2.5,
+            "interval": 0,
+            "next_review": "2026-08-11",
+            "history": [],
+            "state": "New"
+        },
+        "1248": {
+            "name": "Count Number of Nice Subarrays",
+            "difficulty": "Medium",
+            "pattern": "Sliding Window",
+            "ease": 2.5,
+            "interval": 0,
+            "next_review": "2026-08-11",
+            "history": [],
+            "state": "New"
+        },
+        "454": {
+            "name": "4Sum II",
+            "difficulty": "Medium",
+            "pattern": "Hash Map",
+            "ease": 2.5,
+            "interval": 0,
+            "next_review": "2026-08-11",
+            "history": [],
+            "state": "New"
+        },
+        "1493": {
+            "name": "Longest Subarray of 1's After Deleting One Element",
+            "difficulty": "Medium",
+            "pattern": "Sliding Window",
+            "ease": 2.5,
+            "interval": 0,
+            "next_review": "2026-08-11",
+            "history": [],
+            "state": "New"
+        },
+        "930": {
+            "name": "Binary Subarrays With Sum",
+            "difficulty": "Medium",
+            "pattern": "Sliding Window",
+            "ease": 2.5,
+            "interval": 0,
+            "next_review": "2026-08-11",
+            "history": [],
+            "state": "New"
+        },
+        "643": {
+            "name": "Maximum Average Subarray I",
+            "difficulty": "Easy",
+            "pattern": "Sliding Window",
+            "ease": 2.5,
+            "interval": 0,
+            "next_review": "2026-08-11",
+            "history": [],
+            "state": "New"
+        },
+        "1456": {
+            "name": "Maximum Number of Vowels in a Substring of Given Length",
+            "difficulty": "Medium",
+            "pattern": "Sliding Window",
+            "ease": 2.5,
+            "interval": 0,
+            "next_review": "2026-08-11",
+            "history": [],
+            "state": "New"
+        },
+        "303": {
+            "name": "Range Sum Query - Immutable",
+            "difficulty": "Easy",
+            "pattern": "Prefix Sum",
+            "ease": 2.5,
+            "interval": 0,
+            "next_review": "2026-08-11",
+            "history": [],
+            "state": "New"
+        },
+        "1732": {
+            "name": "Find the Highest Altitude",
+            "difficulty": "Easy",
+            "pattern": "Prefix Sum",
+            "ease": 2.5,
+            "interval": 0,
+            "next_review": "2026-08-11",
+            "history": [],
+            "state": "New"
+        },
+        "1991": {
+            "name": "Find the Middle Index in Array",
+            "difficulty": "Easy",
+            "pattern": "Prefix Sum",
+            "ease": 2.5,
+            "interval": 0,
+            "next_review": "2026-08-11",
+            "history": [],
+            "state": "New"
+        },
+        "2379": {
+            "name": "Minimum Recolors to Get K Consecutive Black Blocks",
+            "difficulty": "Easy",
+            "pattern": "Sliding Window",
+            "ease": 2.5,
+            "interval": 0,
+            "next_review": "2026-08-11",
+            "history": [],
+            "state": "New"
+        },
+        "2574": {
+            "name": "Left and Right Sum Differences",
+            "difficulty": "Easy",
+            "pattern": "Prefix Sum",
+            "ease": 2.5,
+            "interval": 0,
+            "next_review": "2026-08-11",
+            "history": [],
+            "state": "New"
+        },
+        "1011": {
+            "name": "Capacity To Ship Packages Within D Days",
+            "difficulty": "Medium",
+            "pattern": "Binary Search (LeetSync)",
+            "ease": 2.5,
+            "interval": 0,
+            "next_review": "2026-08-11",
+            "history": [],
+            "state": "New"
+        },
+        "162": {
+            "name": "Find Peak Element",
+            "difficulty": "Medium",
+            "pattern": "General (LeetSync)",
+            "ease": 2.5,
+            "interval": 0,
+            "next_review": "2026-08-11",
+            "history": [],
+            "state": "New"
+        },
+        "367": {
+            "name": "Valid Perfect Square",
+            "difficulty": "Easy",
+            "pattern": "General (LeetSync)",
+            "ease": 2.5,
+            "interval": 0,
+            "next_review": "2026-08-11",
+            "history": [],
+            "state": "New"
+        },
+        "374": {
+            "name": "Guess Number Higher Or Lower",
+            "difficulty": "Easy",
+            "pattern": "General (LeetSync)",
+            "ease": 2.5,
+            "interval": 0,
+            "next_review": "2026-08-11",
+            "history": [],
+            "state": "New"
+        },
+        "410": {
+            "name": "Split Array Largest Sum",
+            "difficulty": "Hard",
+            "pattern": "General (LeetSync)",
+            "ease": 2.5,
+            "interval": 0,
+            "next_review": "2026-08-11",
+            "history": [],
+            "state": "New"
+        },
+        "744": {
+            "name": "Find Smallest Letter Greater Than Target",
+            "difficulty": "Easy",
+            "pattern": "Binary Search (LeetSync)",
+            "ease": 2.5,
+            "interval": 0,
+            "next_review": "2026-08-11",
+            "history": [],
+            "state": "New"
+        },
+        "875": {
+            "name": "Koko Eating Bananas",
+            "difficulty": "Medium",
+            "pattern": "Binary Search (LeetSync)",
+            "ease": 2.5,
+            "interval": 0,
+            "next_review": "2026-08-11",
+            "history": [],
+            "state": "New"
+        }
+    },
+    "patterns": {},
+    "mistakes": []
+}

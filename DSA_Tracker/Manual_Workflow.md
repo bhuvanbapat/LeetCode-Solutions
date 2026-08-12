@@ -46,11 +46,20 @@ To reflect your new Excel row in the Markdown trackers, you just need to run the
    ```bash
    cd C:\Users\bhuva\OneDrive\Desktop\DSA
    ```
-3. Run the generator script:
+3. Run the synchronization script to update your trackers and revision state:
    ```bash
-   python generate_tracker.py
+   python dsa_system.py sync
    ```
-4. *Optional:* If you want to back up your trackers to GitHub (since LeetSync only backs up the code):
+4. Generate today's revision plan:
+   ```bash
+   python dsa_system.py daily
+   ```
+5. Check `DSA_Tracker/Daily_Plan.md` and perform your assigned reviews.
+6. Record your review outcomes using the CLI (where `[ID]` is the problem ID from LeetCode):
+   ```bash
+   python dsa_system.py review [ID]
+   ```
+7. *Optional:* If you want to back up your trackers to GitHub (since LeetSync only backs up the code):
    ```bash
    git add DSA_Tracker/
    git commit -m "Update tracker logs"
