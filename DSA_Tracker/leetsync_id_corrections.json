@@ -13,6 +13,12 @@
             "folder": "744-find-smallest-letter-greater-than-target",
             "fixed_date": "2026-08-12"
         },
+        "882": {
+            "correct_id": "852",
+            "title": "Peak Index in a Mountain Array",
+            "folder": "852-peak-index-in-a-mountain-array",
+            "fixed_date": "2026-08-12"
+        },
         "907": {
             "correct_id": "875",
             "title": "Koko Eating Bananas",

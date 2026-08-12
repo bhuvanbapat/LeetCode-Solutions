@@ -15,6 +15,7 @@ DAILY_PLAN_PATH = os.path.join(TRACKER_DIR, "Daily_Plan.md")
 LEETSYNC_ID_CORRECTIONS = {
     "1056": "1011",  # Capacity To Ship Packages Within D Days
     "745": "744",    # Find Smallest Letter Greater Than Target
+    "882": "852",    # Peak Index in a Mountain Array
     "907": "875",    # Koko Eating Bananas
 }
 
