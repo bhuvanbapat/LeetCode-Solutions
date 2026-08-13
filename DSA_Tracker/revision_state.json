@@ -529,6 +529,16 @@
             "next_review": "2026-08-12",
             "history": [],
             "state": "New"
+        },
+        "20": {
+            "name": "Valid Parentheses",
+            "difficulty": "Easy",
+            "pattern": "General (LeetSync)",
+            "ease": 2.5,
+            "interval": 0,
+            "next_review": "2026-08-13",
+            "history": [],
+            "state": "New"
         }
     },
     "patterns": {},
