@@ -539,6 +539,76 @@
             "next_review": "2026-08-13",
             "history": [],
             "state": "New"
+        },
+        "1047": {
+            "name": "Remove All Adjacent Duplicates In String",
+            "difficulty": "Easy",
+            "pattern": "General (LeetSync)",
+            "ease": 2.5,
+            "interval": 0,
+            "next_review": "2026-08-21",
+            "history": [],
+            "state": "New"
+        },
+        "155": {
+            "name": "Min Stack",
+            "difficulty": "Medium",
+            "pattern": "General (LeetSync)",
+            "ease": 2.5,
+            "interval": 0,
+            "next_review": "2026-08-21",
+            "history": [],
+            "state": "New"
+        },
+        "232": {
+            "name": "Implement Queue Using Stacks",
+            "difficulty": "Easy",
+            "pattern": "General (LeetSync)",
+            "ease": 2.5,
+            "interval": 0,
+            "next_review": "2026-08-21",
+            "history": [],
+            "state": "New"
+        },
+        "496": {
+            "name": "Next Greater Element I",
+            "difficulty": "Easy",
+            "pattern": "General (LeetSync)",
+            "ease": 2.5,
+            "interval": 0,
+            "next_review": "2026-08-21",
+            "history": [],
+            "state": "New"
+        },
+        "682": {
+            "name": "Baseball Game",
+            "difficulty": "Easy",
+            "pattern": "General (LeetSync)",
+            "ease": 2.5,
+            "interval": 0,
+            "next_review": "2026-08-21",
+            "history": [],
+            "state": "New"
+        },
+        "739": {
+            "name": "Daily Temperatures",
+            "difficulty": "Medium",
+            "pattern": "General (LeetSync)",
+            "ease": 2.5,
+            "interval": 0,
+            "next_review": "2026-08-21",
+            "history": [],
+            "state": "New"
+        },
+        "844": {
+            "name": "Backspace String Compare",
+            "difficulty": "Easy",
+            "pattern": "General (LeetSync)",
+            "ease": 2.5,
+            "interval": 0,
+            "next_review": "2026-08-21",
+            "history": [],
+            "state": "New"
         }
     },
     "patterns": {},

@@ -14,7 +14,9 @@ DAILY_PLAN_PATH = os.path.join(TRACKER_DIR, "Daily_Plan.md")
 # This map corrects known mismatches: { wrong_folder_id: correct_leetcode_id }
 LEETSYNC_ID_CORRECTIONS = {
     "1056": "1011",  # Capacity To Ship Packages Within D Days
+    "1128": "1047",  # Remove All Adjacent Duplicates In String
     "745": "744",    # Find Smallest Letter Greater Than Target
+    "874": "844",    # Backspace String Compare
     "882": "852",    # Peak Index in a Mountain Array
     "907": "875",    # Koko Eating Bananas
 }

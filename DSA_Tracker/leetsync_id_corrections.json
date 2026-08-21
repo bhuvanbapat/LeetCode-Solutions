@@ -13,6 +13,12 @@
             "folder": "744-find-smallest-letter-greater-than-target",
             "fixed_date": "2026-08-12"
         },
+        "874": {
+            "correct_id": "844",
+            "title": "Backspace String Compare",
+            "folder": "844-backspace-string-compare",
+            "fixed_date": "2026-08-21"
+        },
         "882": {
             "correct_id": "852",
             "title": "Peak Index in a Mountain Array",
@@ -24,6 +30,12 @@
             "title": "Koko Eating Bananas",
             "folder": "875-koko-eating-bananas",
             "fixed_date": "2026-08-12"
+        },
+        "1128": {
+            "correct_id": "1047",
+            "title": "Remove All Adjacent Duplicates In String",
+            "folder": "1047-remove-all-adjacent-duplicates-in-string",
+            "fixed_date": "2026-08-21"
         }
     }
 }
