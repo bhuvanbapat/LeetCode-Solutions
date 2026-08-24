@@ -25,9 +25,7 @@ class Solution {
                 case "/":
                     a = stack.pop();
                     b = stack.pop();
-                    if (a != 0) {
-                        c = b / a;
-                    }
+                    c = b / a;
                     stack.push(c);
                     break;
                 default:
