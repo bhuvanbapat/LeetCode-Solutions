@@ -1,4 +1,4 @@
-# 📅 DSA Daily Plan — Aug 21, 2026
+# 📅 DSA Daily Plan — Aug 24, 2026
 
 ## 🆕 NEW (Goal: 1-2 Problems)
 - Solve on LeetCode, then log in `DSA.xlsx` and run `python dsa_system.py sync`.

@@ -609,6 +609,16 @@
             "next_review": "2026-08-21",
             "history": [],
             "state": "New"
+        },
+        "1021": {
+            "name": "Remove Outermost Parentheses",
+            "difficulty": "Easy",
+            "pattern": "General (LeetSync)",
+            "ease": 2.5,
+            "interval": 0,
+            "next_review": "2026-08-24",
+            "history": [],
+            "state": "New"
         }
     },
     "patterns": {},

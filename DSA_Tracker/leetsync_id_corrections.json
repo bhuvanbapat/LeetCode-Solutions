@@ -31,6 +31,12 @@
             "folder": "875-koko-eating-bananas",
             "fixed_date": "2026-08-12"
         },
+        "1078": {
+            "correct_id": "1021",
+            "title": "Remove Outermost Parentheses",
+            "folder": "1021-remove-outermost-parentheses",
+            "fixed_date": "2026-08-24"
+        },
         "1128": {
             "correct_id": "1047",
             "title": "Remove All Adjacent Duplicates In String",
