@@ -2,6 +2,7 @@ import openpyxl
 import os
 import json
 import argparse
+import urllib.request
 from datetime import datetime, timedelta
 from collections import defaultdict
 
@@ -51,6 +52,25 @@ def calculate_next_review(ease, interval, performance):
     new_ease = ease + (0.1 - (3 - performance) * (0.08 + (3 - performance) * 0.02))
     return next_interval, max(1.3, new_ease)
 
+def fetch_real_leetcode_id(slug):
+    try:
+        url = 'https://leetcode.com/graphql'
+        data = json.dumps({
+            'query': 'query questionTitle($titleSlug: String!) { question(titleSlug: $titleSlug) { questionFrontendId title } }',
+            'variables': {'titleSlug': slug}
+        }).encode('utf-8')
+        req = urllib.request.Request(url, data=data, headers={
+            'Content-Type': 'application/json',
+            'User-Agent': 'Mozilla/5.0',
+            'Referer': 'https://leetcode.com/'
+        })
+        resp = urllib.request.urlopen(req, timeout=10)
+        resp_data = json.loads(resp.read().decode('utf-8'))
+        return resp_data['data']['question']['questionFrontendId']
+    except Exception as e:
+        print(f"Failed to fetch ID for {slug}: {e}")
+        return None
+
 def sync_excel():
     db = load_db()
     
@@ -93,33 +113,75 @@ def sync_excel():
         item_path = os.path.join(workspace, item)
         if os.path.isdir(item_path) and item[0].isdigit() and "-" in item:
             try:
-                pid = str(int(item.split("-")[0]))
+                parts = item.split("-", 1)
+                folder_id_str = parts[0]
+                slug = parts[1]
+                pid = str(int(folder_id_str))
+                
                 # Apply known LeetSync ID corrections
                 pid = LEETSYNC_ID_CORRECTIONS.get(pid, pid)
+                
                 if pid not in db["problems"]:
-                    # Try to extract difficulty from README
-                    difficulty = "Unknown"
-                    readme_path = os.path.join(item_path, "README.md")
-                    if os.path.exists(readme_path):
-                        with open(readme_path, "r", encoding="utf-8") as f:
-                            content = f.read()
-                            if "Difficulty-Easy" in content: difficulty = "Easy"
-                            elif "Difficulty-Medium" in content: difficulty = "Medium"
-                            elif "Difficulty-Hard" in content: difficulty = "Hard"
-                            
-                    name = " ".join(item.split("-")[1:]).title()
-                    
-                    db["problems"][pid] = {
-                        "name": name,
-                        "difficulty": difficulty,
-                        "pattern": "General (LeetSync)",
-                        "ease": 2.5,
-                        "interval": 0,
-                        "next_review": datetime.now().strftime("%Y-%m-%d"),
-                        "history": [],
-                        "state": "New"
-                    }
-                    leetsync_added += 1
+                    # Auto-Fixer: Verify with LeetCode API
+                    real_id = fetch_real_leetcode_id(slug)
+                    if real_id and real_id != pid:
+                        print(f"Auto-Fixer detected mismatch: Folder ID {pid}, Real ID {real_id}. Fixing...")
+                        # 1. Add to LEETSYNC_ID_CORRECTIONS in memory
+                        LEETSYNC_ID_CORRECTIONS[folder_id_str] = real_id
+                        
+                        # 2. Add to DSA_Tracker/leetsync_id_corrections.json
+                        corrections_file = os.path.join(TRACKER_DIR, "leetsync_id_corrections.json")
+                        if os.path.exists(corrections_file):
+                            try:
+                                with open(corrections_file, "r", encoding="utf-8") as cf:
+                                    corr_db = json.load(cf)
+                                corr_db[folder_id_str] = {
+                                    "correct_id": real_id,
+                                    "title": slug.replace("-", " ").title(),
+                                    "folder": f"{real_id}-{slug}",
+                                    "fixed_date": datetime.now().strftime("%Y-%m-%d")
+                                }
+                                with open(corrections_file, "w", encoding="utf-8") as cf:
+                                    json.dump(corr_db, cf, indent=4)
+                            except Exception as ce:
+                                print(f"Error logging correction: {ce}")
+                        
+                        # 3. Rename folder
+                        new_folder_name = f"{real_id}-{slug}"
+                        new_item_path = os.path.join(workspace, new_folder_name)
+                        try:
+                            os.rename(item_path, new_item_path)
+                            item_path = new_item_path
+                            item = new_folder_name
+                            pid = real_id
+                            print(f"Successfully renamed folder to {new_folder_name}")
+                        except Exception as re:
+                            print(f"Failed to rename folder {item}: {re}")
+
+                    if pid not in db["problems"]:
+                        # Try to extract difficulty from README
+                        difficulty = "Unknown"
+                        readme_path = os.path.join(item_path, "README.md")
+                        if os.path.exists(readme_path):
+                            with open(readme_path, "r", encoding="utf-8") as f:
+                                content = f.read()
+                                if "Difficulty-Easy" in content: difficulty = "Easy"
+                                elif "Difficulty-Medium" in content: difficulty = "Medium"
+                                elif "Difficulty-Hard" in content: difficulty = "Hard"
+                                
+                        name = slug.replace("-", " ").title()
+                        
+                        db["problems"][pid] = {
+                            "name": name,
+                            "difficulty": difficulty,
+                            "pattern": "General (LeetSync)",
+                            "ease": 2.5,
+                            "interval": 0,
+                            "next_review": datetime.now().strftime("%Y-%m-%d"),
+                            "history": [],
+                            "state": "New"
+                        }
+                        leetsync_added += 1
             except Exception as e:
                 print(f"Error parsing LeetSync folder {item}: {e}")
                 
