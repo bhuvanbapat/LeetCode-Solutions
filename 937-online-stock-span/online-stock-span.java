@@ -13,7 +13,7 @@ class StockSpanner {
             stack.pop();
         }
         stack.push(new int[] { price, span });
-        return stack.peek()[1];
+        return span;
     }
 }
 
