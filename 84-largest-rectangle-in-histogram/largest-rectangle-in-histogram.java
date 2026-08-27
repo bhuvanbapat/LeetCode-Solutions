@@ -18,9 +18,7 @@ class Solution {
                 } else {
                     left = stack.peek();
                 }
-                int width = i - left - 1;
-                area = width * height;
-                maxarea = Math.max(area, maxarea);
+                maxarea = Math.max((i-left-1)*height, maxarea);
             }
             if (i < heights.length) {
                 stack.push(i);
