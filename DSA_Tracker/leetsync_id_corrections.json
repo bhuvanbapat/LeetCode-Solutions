@@ -43,5 +43,17 @@
             "folder": "1047-remove-all-adjacent-duplicates-in-string",
             "fixed_date": "2026-08-21"
         }
+    },
+    "1168": {
+        "correct_id": "1089",
+        "title": "Duplicate Zeros",
+        "folder": "1089-duplicate-zeros",
+        "fixed_date": "2026-08-31"
+    },
+    "937": {
+        "correct_id": "901",
+        "title": "Online Stock Span",
+        "folder": "901-online-stock-span",
+        "fixed_date": "2026-08-31"
     }
 }

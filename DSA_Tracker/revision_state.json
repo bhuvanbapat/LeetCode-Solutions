@@ -619,6 +619,66 @@
             "next_review": "2026-08-24",
             "history": [],
             "state": "New"
+        },
+        "1089": {
+            "name": "Duplicate Zeros",
+            "difficulty": "Easy",
+            "pattern": "General (LeetSync)",
+            "ease": 2.5,
+            "interval": 0,
+            "next_review": "2026-08-31",
+            "history": [],
+            "state": "New"
+        },
+        "150": {
+            "name": "Evaluate Reverse Polish Notation",
+            "difficulty": "Medium",
+            "pattern": "General (LeetSync)",
+            "ease": 2.5,
+            "interval": 0,
+            "next_review": "2026-08-31",
+            "history": [],
+            "state": "New"
+        },
+        "283": {
+            "name": "Move Zeroes",
+            "difficulty": "Easy",
+            "pattern": "General (LeetSync)",
+            "ease": 2.5,
+            "interval": 0,
+            "next_review": "2026-08-31",
+            "history": [],
+            "state": "New"
+        },
+        "84": {
+            "name": "Largest Rectangle In Histogram",
+            "difficulty": "Hard",
+            "pattern": "General (LeetSync)",
+            "ease": 2.5,
+            "interval": 0,
+            "next_review": "2026-08-31",
+            "history": [],
+            "state": "New"
+        },
+        "88": {
+            "name": "Merge Sorted Array",
+            "difficulty": "Easy",
+            "pattern": "General (LeetSync)",
+            "ease": 2.5,
+            "interval": 0,
+            "next_review": "2026-08-31",
+            "history": [],
+            "state": "New"
+        },
+        "901": {
+            "name": "Online Stock Span",
+            "difficulty": "Medium",
+            "pattern": "General (LeetSync)",
+            "ease": 2.5,
+            "interval": 0,
+            "next_review": "2026-08-31",
+            "history": [],
+            "state": "New"
         }
     },
     "patterns": {},
