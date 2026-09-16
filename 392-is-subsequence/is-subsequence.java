@@ -13,7 +13,7 @@ class Solution {
             if (c1 == c2) {
                 i++;
                 j++;
-            } else if (c1 != c2) {
+            } else {
                 j++;
             }
         }
