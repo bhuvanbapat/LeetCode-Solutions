@@ -679,6 +679,196 @@
             "next_review": "2026-08-31",
             "history": [],
             "state": "New"
+        },
+        "509": {
+            "name": "Fibonacci Number",
+            "difficulty": "Easy",
+            "pattern": "General (LeetSync)",
+            "ease": 2.5,
+            "interval": 0,
+            "next_review": "2026-09-24",
+            "history": [],
+            "state": "New"
+        },
+        "118": {
+            "name": "Pascals Triangle",
+            "difficulty": "Easy",
+            "pattern": "General (LeetSync)",
+            "ease": 2.5,
+            "interval": 0,
+            "next_review": "2026-09-24",
+            "history": [],
+            "state": "New"
+        },
+        "119": {
+            "name": "Pascals Triangle Ii",
+            "difficulty": "Easy",
+            "pattern": "General (LeetSync)",
+            "ease": 2.5,
+            "interval": 0,
+            "next_review": "2026-09-24",
+            "history": [],
+            "state": "New"
+        },
+        "121": {
+            "name": "Best Time To Buy And Sell Stock",
+            "difficulty": "Easy",
+            "pattern": "General (LeetSync)",
+            "ease": 2.5,
+            "interval": 0,
+            "next_review": "2026-09-24",
+            "history": [],
+            "state": "New"
+        },
+        "122": {
+            "name": "Best Time To Buy And Sell Stock Ii",
+            "difficulty": "Medium",
+            "pattern": "General (LeetSync)",
+            "ease": 2.5,
+            "interval": 0,
+            "next_review": "2026-09-24",
+            "history": [],
+            "state": "New"
+        },
+        "1137": {
+            "name": "N Th Tribonacci Number",
+            "difficulty": "Easy",
+            "pattern": "General (LeetSync)",
+            "ease": 2.5,
+            "interval": 0,
+            "next_review": "2026-09-24",
+            "history": [],
+            "state": "New"
+        },
+        "152": {
+            "name": "Maximum Product Subarray",
+            "difficulty": "Medium",
+            "pattern": "General (LeetSync)",
+            "ease": 2.5,
+            "interval": 0,
+            "next_review": "2026-09-24",
+            "history": [],
+            "state": "New"
+        },
+        "189": {
+            "name": "Rotate Array",
+            "difficulty": "Medium",
+            "pattern": "General (LeetSync)",
+            "ease": 2.5,
+            "interval": 0,
+            "next_review": "2026-09-24",
+            "history": [],
+            "state": "New"
+        },
+        "198": {
+            "name": "House Robber",
+            "difficulty": "Medium",
+            "pattern": "General (LeetSync)",
+            "ease": 2.5,
+            "interval": 0,
+            "next_review": "2026-09-24",
+            "history": [],
+            "state": "New"
+        },
+        "258": {
+            "name": "Add Digits",
+            "difficulty": "Easy",
+            "pattern": "General (LeetSync)",
+            "ease": 2.5,
+            "interval": 0,
+            "next_review": "2026-09-24",
+            "history": [],
+            "state": "New"
+        },
+        "26": {
+            "name": "Remove Duplicates From Sorted Array",
+            "difficulty": "Easy",
+            "pattern": "General (LeetSync)",
+            "ease": 2.5,
+            "interval": 0,
+            "next_review": "2026-09-24",
+            "history": [],
+            "state": "New"
+        },
+        "27": {
+            "name": "Remove Element",
+            "difficulty": "Easy",
+            "pattern": "General (LeetSync)",
+            "ease": 2.5,
+            "interval": 0,
+            "next_review": "2026-09-24",
+            "history": [],
+            "state": "New"
+        },
+        "392": {
+            "name": "Is Subsequence",
+            "difficulty": "Easy",
+            "pattern": "General (LeetSync)",
+            "ease": 2.5,
+            "interval": 0,
+            "next_review": "2026-09-24",
+            "history": [],
+            "state": "New"
+        },
+        "53": {
+            "name": "Maximum Subarray",
+            "difficulty": "Medium",
+            "pattern": "General (LeetSync)",
+            "ease": 2.5,
+            "interval": 0,
+            "next_review": "2026-09-24",
+            "history": [],
+            "state": "New"
+        },
+        "70": {
+            "name": "Climbing Stairs",
+            "difficulty": "Easy",
+            "pattern": "General (LeetSync)",
+            "ease": 2.5,
+            "interval": 0,
+            "next_review": "2026-09-24",
+            "history": [],
+            "state": "New"
+        },
+        "746": {
+            "name": "Min Cost Climbing Stairs",
+            "difficulty": "Easy",
+            "pattern": "General (LeetSync)",
+            "ease": 2.5,
+            "interval": 0,
+            "next_review": "2026-09-24",
+            "history": [],
+            "state": "New"
+        },
+        "80": {
+            "name": "Remove Duplicates From Sorted Array Ii",
+            "difficulty": "Medium",
+            "pattern": "General (LeetSync)",
+            "ease": 2.5,
+            "interval": 0,
+            "next_review": "2026-09-24",
+            "history": [],
+            "state": "New"
+        },
+        "905": {
+            "name": "Sort Array By Parity",
+            "difficulty": "Easy",
+            "pattern": "General (LeetSync)",
+            "ease": 2.5,
+            "interval": 0,
+            "next_review": "2026-09-24",
+            "history": [],
+            "state": "New"
+        },
+        "922": {
+            "name": "Sort Array By Parity Ii",
+            "difficulty": "Easy",
+            "pattern": "General (LeetSync)",
+            "ease": 2.5,
+            "interval": 0,
+            "next_review": "2026-09-24",
+            "history": [],
+            "state": "New"
         }
     },
     "patterns": {},

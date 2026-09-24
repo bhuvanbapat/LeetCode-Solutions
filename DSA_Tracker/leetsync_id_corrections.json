@@ -55,5 +55,35 @@
         "title": "Online Stock Span",
         "folder": "901-online-stock-span",
         "fixed_date": "2026-08-31"
+    },
+    "1013": {
+        "correct_id": "509",
+        "title": "Fibonacci Number",
+        "folder": "509-fibonacci-number",
+        "fixed_date": "2026-09-24"
+    },
+    "1236": {
+        "correct_id": "1137",
+        "title": "N Th Tribonacci Number",
+        "folder": "1137-n-th-tribonacci-number",
+        "fixed_date": "2026-09-24"
+    },
+    "747": {
+        "correct_id": "746",
+        "title": "Min Cost Climbing Stairs",
+        "folder": "746-min-cost-climbing-stairs",
+        "fixed_date": "2026-09-24"
+    },
+    "941": {
+        "correct_id": "905",
+        "title": "Sort Array By Parity",
+        "folder": "905-sort-array-by-parity",
+        "fixed_date": "2026-09-24"
+    },
+    "958": {
+        "correct_id": "922",
+        "title": "Sort Array By Parity Ii",
+        "folder": "922-sort-array-by-parity-ii",
+        "fixed_date": "2026-09-24"
     }
 }
