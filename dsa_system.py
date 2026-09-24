@@ -10,6 +10,7 @@ EXCEL_PATH = "C:/Users/bhuva/OneDrive/Desktop/DSA/DSA.xlsx"
 TRACKER_DIR = "C:/Users/bhuva/OneDrive/Desktop/DSA/DSA_Tracker"
 DB_PATH = os.path.join(TRACKER_DIR, "revision_state.json")
 DAILY_PLAN_PATH = os.path.join(TRACKER_DIR, "Daily_Plan.md")
+SOLVED_LIST_PATH = os.path.join(TRACKER_DIR, "Solved_Problems.md")
 
 # LeetSync sometimes syncs folders with wrong problem numbers.
 # This map corrects known mismatches: { wrong_folder_id: correct_leetcode_id }
@@ -189,7 +190,28 @@ def sync_excel():
         save_db(db)
         print(f"Synced from LeetSync. {leetsync_added} new problems added to revision state.")
         
+    generate_solved_list(db)
     print(f"Total problems in system: {len(db['problems'])}")
+
+def generate_solved_list(db=None):
+    if db is None:
+        db = load_db()
+    
+    problems = []
+    for pid, data in db["problems"].items():
+        problems.append((int(pid), data["name"], data.get("difficulty", "Unknown")))
+    
+    problems.sort(key=lambda x: x[0])
+    
+    with open(SOLVED_LIST_PATH, "w", encoding="utf-8") as f:
+        f.write("# 🏆 All Solved Problems\n\n")
+        f.write(f"**Total Solved:** {len(problems)}\n\n")
+        f.write("| ID | Problem Name | Difficulty |\n")
+        f.write("|---|---|---|\n")
+        for pid, name, diff in problems:
+            f.write(f"| {pid} | {name} | {diff} |\n")
+    
+    print(f"Solved list updated at: {SOLVED_LIST_PATH}")
 
 def generate_daily_plan():
     db = load_db()
